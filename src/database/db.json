@@ -11,6 +11,7 @@
             "routeName": "portfolio-exe",
             "title": "portFolio.exe",
             "thumbnail": "/logo.png",
+            "repositoryUrl": "https://github.com/rafae1-afonso/portfolio.exe",
             "description": {
                 "english": "I had the idea to create a portfolio with a different aesthetic, so I took inspiration from A$AP Rocky's AWGE website and created this project.",
                 "brazilian": "Tive a ideia de fazer um portfólio com uma estética diferente, então peguei como inspiração o site da AWGE do A$ap Rocky e criei este projeto."
