@@ -31,7 +31,7 @@ const Aboutme = () => {
                     <div className='w-full flex gap-10 justify-between'>
                         <ContentBoxComponent title='RAFAEL AF0NSO'>
                             <p>
-                                {database.aboutme.aboutmeText[lanContext.language]}
+                                {database.aboutme.aboutmeText[lanContext.language as keyof typeof Languages]}
                             </p>
                         </ContentBoxComponent>
                         <Image src="https://github.com/rafae1-afonso.png" alt='profile photo' width={250} height={0}

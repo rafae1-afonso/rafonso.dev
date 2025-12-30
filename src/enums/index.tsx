@@ -12,5 +12,5 @@ export enum Technologies {
 
 export enum Languages {
     english = "english",
-    brazilian = "brazilian"
+    portuguese = "portuguese"
 }

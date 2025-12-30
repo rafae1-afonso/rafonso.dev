@@ -67,7 +67,7 @@ const page = ({ params }: { params: Promise<{ route: string }> }) => {
                         <div className='border-b-2 opacity-10'></div>
                         <ContentBoxComponent title='DESCRIPTION'>
                             <p>
-                                {project.description[lanContext.language]}
+                                {project.description[lanContext.language as keyof typeof Languages]}
                             </p>
                         </ContentBoxComponent>
                         <div className='border-b-2 opacity-10'></div>
