@@ -21,16 +21,17 @@ export default function App() {
           <p>&copy;</p>
           <YearComponent />
           <span>
-            <Image src="/logo.png" alt="portfolio.exe" width={120} height={0} />
+            <Image src="/dev.png" alt="rafonso.dev" width={80} height={0} />
           </span>
         </div>
-        <Image src="/chromelogo.png" alt="logo" width={400} height={0}
+        <Image src="/rafonsodev.png" alt="logo" width={350} height={0}
           className="
           animate-[blink_.2s_infinite]
           mx-auto
+          my-10
         "
         />
-        <div className="group flex items-center justify-center mb-20 cursor-pointer">
+        <div className="group flex items-center justify-center mb-15 cursor-pointer">
           <NeonButton
             styleAdd="font-(Press Start 2P) text-2xl text-center cursor-pointer text-shadow-current group-hover:text-shadow-[0_0_10px_current] group-active:duration-75 group-active:opacity-0 group-active:scale-125"
             onClick={() => {

@@ -5,7 +5,7 @@ const Footer = ({ styleAdd }: { styleAdd?: string }) => {
     return <footer className={`flex items-center gap-5 text-sm ${styleAdd}`}>
         <p>&copy;</p>
         <YearComponent />
-        <p>portFolio.exe</p>
+        <p>rafonso.dev</p>
     </footer>
 }
 

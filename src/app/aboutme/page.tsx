@@ -34,7 +34,7 @@ const Aboutme = () => {
                                 {database.aboutme.aboutmeText[lanContext.language]}
                             </p>
                         </ContentBoxComponent>
-                        <Image src="/aboutme/profilephoto.png" alt='profile photo' width={250} height={0}
+                        <Image src="https://github.com/rafae1-afonso.png" alt='profile photo' width={250} height={0}
                             className='rounded-lg border-2 border-chrome-gray shadow-2xl'
                         />
                     </div>

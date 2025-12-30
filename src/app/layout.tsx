@@ -20,7 +20,7 @@ const pressStart2P = Press_Start_2P({
 })
 
 export const metadata: Metadata = {
-  title: "portFolio.exe",
+  title: "rafonso.dev | Web Developer",
   description: "A regular portfolio.",
 };
 

@@ -23,7 +23,7 @@ const Home = () => {
             </div> */}
             <main className='flex px-[80px] justify-between'>
                 <div className='flex flex-col items-center justify-center gap-5 mx-[1rem]'>
-                    <Link href='/'><Image src="/chromelogo.png" alt='logo' width={400} height={0} className="animate-[blink_.2s_infinite]" /></Link>
+                    <Link href='/'><Image src="/rafonsodev.png" alt='logo' width={300} height={0} className="animate-[blink_.2s_infinite]" /></Link>
                     <ul>
                         <Link href='/aboutme'>
                             <HomeButton mouseOverAction={() => setCurrentHoverGif('/home/aboutme.gif')}>
